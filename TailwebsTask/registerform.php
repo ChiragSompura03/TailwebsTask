@@ -65,7 +65,7 @@
                         if (response === 'success') {
                             successMessage.text('Registration successful. Please log in.');
                             setTimeout(() => {
-                                window.location.href = 'login.html';
+                                window.location.href = 'loginform.php';
                             }, 2000);
                         } else {
                             errorMessage.text(response);
